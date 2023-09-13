@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v2.dtd">
+<network>
+	<nodes>
+		<node id="nodeA" x="0.0" y="0.0" ></node>
+		<node id="nodeB" x="100.0" y="0.0" ></node>
+	</nodes>
+	<links>
+		<link id="linkE" from="nodeA" to="nodeB" length="100.5" modes="bus,car" ></link>
+		<link id="linkW" from="nodeB" to="nodeA" length="102.0" modes="bus,car" ></link>
+</network>
